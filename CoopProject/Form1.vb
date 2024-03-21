@@ -10,9 +10,12 @@
         xValue = NumericUpDown1.Value * 147
         If xValue = yValue Then
             xLabel.Text = xValue
-            PictureBox1.Image =
+            yLabel.Text = yValue
+            PictureBox1.Image = My.Resources.Resource1.ResourceManager.GetObject("square")
         Else
             PictureBox1.Image = Nothing
+            xLabel.Text = "N/A"
+            yLabel.Text = "N/A"
         End If
     End Sub
 
@@ -23,10 +26,13 @@
         End If
         yValue = NumericUpDown2.Value * 147
         If xValue = yValue Then
+            xLabel.Text = xValue
             yLabel.Text = yValue
-            PictureBox1.Image =
+            PictureBox1.Image = My.Resources.Resource1.ResourceManager.GetObject("square")
         Else
             PictureBox1.Image = Nothing
+            xLabel.Text = "N/A"
+            yLabel.Text = "N/A"
         End If
     End Sub
 End Class
