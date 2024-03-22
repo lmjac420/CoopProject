@@ -51,7 +51,6 @@ Partial Class Form1
         '
         Me.NumericUpDown1.Location = New System.Drawing.Point(57, 17)
         Me.NumericUpDown1.Name = "NumericUpDown1"
-        Me.NumericUpDown1.ReadOnly = True
         Me.NumericUpDown1.Size = New System.Drawing.Size(120, 23)
         Me.NumericUpDown1.TabIndex = 0
         '
@@ -59,7 +58,6 @@ Partial Class Form1
         '
         Me.NumericUpDown2.Location = New System.Drawing.Point(57, 46)
         Me.NumericUpDown2.Name = "NumericUpDown2"
-        Me.NumericUpDown2.ReadOnly = True
         Me.NumericUpDown2.Size = New System.Drawing.Size(120, 23)
         Me.NumericUpDown2.TabIndex = 1
         '
@@ -184,7 +182,7 @@ Partial Class Form1
         '
         Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"California (+30%)", "Nevada (+20%)", "New Mexico (Unaffected)", "Utah (-20%)", "Arizona (Unaffected)", "Texas (+5%)", "test"})
+        Me.ComboBox1.Items.AddRange(New Object() {"California (+30%)", "Nevada (+20%)", "New Mexico (Unaffected)", "Utah (-20%)", "Arizona (Unaffected)", "Texas (+5%)"})
         Me.ComboBox1.Location = New System.Drawing.Point(367, 27)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(147, 23)
@@ -212,7 +210,7 @@ Partial Class Form1
         Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.GroupBox1)
         Me.Name = "Form1"
-        Me.Text = "Room Price Calculator"
+        Me.Text = "Groundwork Price Calculator"
         CType(Me.NumericUpDown1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.NumericUpDown2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox1.ResumeLayout(False)
