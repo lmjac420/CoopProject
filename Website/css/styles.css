@@ -1,5 +1,8 @@
-
-
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
 h1 {
     font-size: 40px;
     text-align: center;
@@ -15,10 +18,14 @@ body {
     font: normal 10px Verdana, Arial, sans-serif;
     background-color: #EEEEEE;
 }
-section {
+.mainsec {
     padding: 10px;
     margin-right: 25%;
     margin-left: 25%;
     display: block;
     background-color: #DDDDDD;
+    height: 100%;
+}
+a {
+    padding: inherit;
 }
